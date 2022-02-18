@@ -8,21 +8,34 @@ namespace Testas
 {
     internal class Geometry
     {
-        public int firstVar;
-        public int secondVar;
-        public int thirdVar;
+        public double firstVar;
+        public double secondVar;
+        public double thirdVar;
 
-        public void Task1 
+        public void Task1()
+        {
+            int r = 6371;
+            firstVar = 4 * Math.PI * (r * r);
+            Console.WriteLine($"firstvar: {firstVar}");
+
+        }
+        public void Task2()
+        {
+
+        }
+        public void Task3()
+        {
+
+        }
+        public void Task4()
+        {
+            double suma = firstVar + secondVar + thirdVar;
+            Console.WriteLine($"Suma: {suma}");
+        }
+        public void Task5()
         { 
-
-        }
-        public void Task2
-        {
-
-        }
-        public void Task3
-        {
-
+            double vidurkis = (firstVar + secondVar + thirdVar)/3;
+            Console.WriteLine($"Vidurkis: {vidurkis}");
         }
     }
 }
