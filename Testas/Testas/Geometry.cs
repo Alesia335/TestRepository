@@ -21,7 +21,9 @@ namespace Testas
         }
         public void Task2()
         {
-
+            int r = 6371;
+            secondVar = 4 / 3 * Math.PI * r * r * r;
+            Console.WriteLine($"secondvar: {secondVar}");
         }
         public void Task3()
         {
