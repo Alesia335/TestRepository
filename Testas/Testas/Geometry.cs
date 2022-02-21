@@ -34,7 +34,7 @@ namespace Testas
         }
         public void Task5()
         { 
-            double vidurkis = (firstVar + secondVar + thirdVar)/3;
+            double vidurkis = (firstVar + secondVar + thirdVar) / 3;
             Console.WriteLine($"Vidurkis: {vidurkis}");
         }
     }
