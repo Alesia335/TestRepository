@@ -29,7 +29,8 @@ namespace Testas
         {
             int a = 10;
             int b = 15;
-            thirdVar = Convert.ToInt32(Math.Sqrt(Math.Pow(10, 2) + Math.Pow(15, 2)));
+            thirdVar = Convert.ToInt32(Math.Sqrt(Math.Pow(a, 2) + Math.Pow(b, 2)));
+            Console.WriteLine($"thirdvar: {thirdVar}");
         }
         public void Task4()
         {
